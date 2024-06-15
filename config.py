@@ -6,6 +6,7 @@ class Settings(BaseSettings):
     screen_w: int = 1280
     screen_h: int = 720
     fps: int = 60
+    offset_bottom: int = 100
 
 
 settings = Settings()
